@@ -73,7 +73,6 @@ main {
 .weather-heading {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 5px;
 }
 
 .city-heading {
@@ -82,7 +81,6 @@ main {
     background-clip: text;
     font-size: 52px;
     font-weight: 700;
-    line-height: 48px;
     margin: 0;
     margin-left: 30px;
     margin-top: 0px;
