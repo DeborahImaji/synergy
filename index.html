@@ -10,7 +10,7 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -19,26 +19,34 @@
 
         <header>
 
-            <form>
-                <input type="text" placeholder="Enter a city..." required>
-                <input type="submit" value="Search">
+            <form class="search-form">
+                <input type="text" placeholder="Enter a city..." required class="search-bar">
+                <input type="submit" value="Search" class="search-button">
             </form>
 
         </header>
 
-        <main>
+        <main class="body-content">
 
-            <div>
-                <h1>Seoul</h1>
-                <p>Tuesday 11:50, clear sky</p>
+            <div class="weather-heading">
+
+                <div>
+                    <h1 class="city-heading">Waterloo</h1>
+                    <p class="city-details">Tuesday 11:50, clear sky</p>
+                </div>
+
+                <div class="weather-heading-temp">
+                    <div class="heading-icon">🌤️</div>
+                    <div class="heading-temperature">27</div>
+                    <div class="heading-unit">°C</div>
+                </div>
+
             </div>
 
-            <div>🌤️ 27°C</div>
-
-            <ul>
-                <li>💧<br>94%<br>Humidity</li>
-                <li>💨<br>3.09km/h<br>Wind Speed</li>
-            </ul>
+            <div class="weather-specs">
+                <div class="specs-humidity">💧<br><span>94%</span><br>Humidity</div>
+                <div class="specs-windspeed">💨<br><span>3.09km/h</span><br>Wind Speed</div>
+            </div>
 
         </main>
 
