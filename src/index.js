@@ -10,6 +10,10 @@ function displayWeather(response) {
     let dayTimeElement = document.querySelector("#current-daytime");
     let currentDate = new Date(response.data.time * 1000);
 
+    let iconElement = document.querySelector("#icon");
+
+    iconElement.innerHTML = `<img src="${response.data.condition.icon_url}" class="heading-icon">`;
+
     cityHeading.innerHTML = response.data.city;
     cityCondElement.innerHTML = response.data.condition.description;
     headTempElement.innerHTML = Math.round(headTemp);
