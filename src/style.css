@@ -156,6 +156,10 @@ main {
     color: #35348C;
 }
 
+.weather-forecast-date {
+    text-align: center;
+}
+
 footer {
     border-top: 1px solid #5F6DF4;
     color: #000000a8;
