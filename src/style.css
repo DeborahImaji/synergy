@@ -8,7 +8,7 @@ a {
 }
 
 .panel {
-    background-color: rgba(255, 255, 255, 0.342);
+    background-color: rgba(255, 255, 255, 0.183);
     border: 2px solid rgba(255, 255, 255, 0.413);
     border-radius: 24px;
     box-shadow: 0px 30px 50px #6383e3a5;
@@ -23,14 +23,14 @@ header {
 }
 
 .search-bar {
-    background-color: #ffffffee;
+    background-color: #ffffff;
     border: none;
-    border-radius: 15px;
-    box-shadow: 2px 2px 4px #4d68f186;
+    border-radius: 12px;
+    box-shadow: 2px 2px 4px #4d68f15a;
     font-size: 16px;
     padding: 15px 20px;
     transition: all 200ms ease-in-out;
-    width: 75%;
+    width: 80%;
 }
 
 .search-bar:hover {
@@ -41,11 +41,11 @@ header {
 .search-button {
     background: linear-gradient(to right, #344BE3, #4D6DF4);
     border: none;
-    border-radius: 15px;
+    border-radius: 12px;
     box-shadow: 3px 3px 6px #4d68f19d;
     color: white;
     font-size: 16px;
-    margin-left: 10px;
+    margin-left: 5px;
     padding: 15px 30px;
     transition: all 200ms ease-in-out;
 }
@@ -55,19 +55,15 @@ header {
     transform: scale(1.06);
 }
 
-.body-content {
-    background-color: #ffffff8f;
+main {
+    background-color: #ffffff8e;
     border: 2px solid rgba(255, 255, 255, 0.413);
     border-radius: 30px;
     box-shadow: 0px 10px 20px #6383e377;
     margin: 30px 0;
     margin-bottom: 0px;
     max-width: 800px;
-    padding: 40px 40px;
-}
-
-main {
-    padding: 30px 0;
+    padding: 30px 0px;
 }
 
 .weather-heading {
